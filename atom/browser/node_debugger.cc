@@ -4,7 +4,9 @@
 
 #include "atom/browser/node_debugger.h"
 
+#include <memory>
 #include <string>
+#include <vector>
 
 #include "base/command_line.h"
 #include "base/logging.h"
@@ -62,7 +64,7 @@ void NodeDebugger::Start() {
   const char* path = "";
   inspector->Start(path, options);
   // FIXME
-  //DCHECK(env_->inspector_agent()->IsListening());
+  // DCHECK(env_->inspector_agent()->IsListening());
 }
 
 }  // namespace atom
