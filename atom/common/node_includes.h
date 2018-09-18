@@ -35,7 +35,7 @@
 #include "env.h"
 #include "node.h"
 #include "node_buffer.h"
-#include "node_debug_options.h"
+#include "node_options.h"
 #include "node_internals.h"
 #include "node_platform.h"
 
